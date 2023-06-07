@@ -14,7 +14,7 @@ class MainRepositoryImp(private val httpClient: HttpClient) : MainRepository {
         val response = httpClient.get(Urls.GET_CATS) {
             headers.append(
                 "x-api-key",
-                "live_FyGB6I0nCgkqb6uUvHrlMEoAflxMYuY6HpHW9F0zUJcGN1tq8IqYFDaSOsPwupug"
+                Urls.API_KEY
             )
             parameter("limit", "30")
 
