@@ -18,11 +18,11 @@
 - [Pagination][4] - Pagination in Kotlin Multiplatform Mobile
 
 ## Android Preview
-<p><img src="https://s12.gifyu.com/images/SuFrg.gif" width=30% height=30%></p>
+<p><img src="main.gif" width=30% height=30%></p>
 <p>To run this project, set your API Key in the ApiKey.kt class in shared/commonMain/.../theMovie/util.</p>
 
 ## Credits
-- [[CatsAPI][1] - Cats API Provider.
+- [CatsAPI][1] - Cats API Provider.
 
 [1]: https://developers.thecatapi.com/login
 [2]: https://github.com/yshrsmz/BuildKonfig-------------------------------------
