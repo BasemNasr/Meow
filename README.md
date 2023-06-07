@@ -6,7 +6,7 @@
 <a href="https://developer.android.com/about/versions/12"><img alt="API" src="https://img.shields.io/badge/targetSdkVersion-31-green.svg?style=true"/></a>
 <p>What're inside?
 <br>- Jetpack Compose
-<br>- Hilt
+<br>- Koin
 <br>- Ktor
 <br>- Kotest
 <br>- PullRefreshIndicator (Swipe To Refresh )
