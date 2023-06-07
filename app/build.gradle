@@ -1,0 +1,100 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlinx-serialization'
+    id 'io.kotest.multiplatform'
+
+}
+
+android {
+    namespace 'com.bn.meow'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.bn.salaty"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.3.2'
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+
+dependencies {
+    implementation libs.kotlin.std
+    implementation libs.androidx.core.ktx
+    implementation libs.android.coroutines
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+    implementation libs.androidx.lifecycle.livedata.ktx
+    implementation libs.androidx.lifecycle.runtime.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.activity.compose
+    implementation libs.compose.runtime.livedata
+    implementation libs.compose.ui
+    implementation libs.compose.material3
+//    implementation libs.compose.icons
+    implementation libs.compose.navigation
+    implementation libs.compose.tooling
+    debugImplementation libs.compose.tooling
+    implementation libs.compose.tooling.preview
+    implementation libs.coil
+    testImplementation libs.junit
+    androidTestImplementation libs.junit.ext
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.compose.test.junit4
+    implementation libs.mockito
+
+
+    implementation libs.koin
+    implementation libs.koin.android
+    implementation libs.koin.logger
+
+    testImplementation libs.koin.test
+    testImplementation libs.koin.testJUnit4
+    implementation libs.ktor.core
+    implementation libs.ktor.android
+    implementation libs.ktor.okhttp
+    implementation libs.ktor.logging
+    implementation libs.ktor.serialization
+    implementation libs.ktor.json
+    implementation libs.ktor.negotiation
+    implementation libs.ktor.mock
+
+    implementation libs.coroutines.core
+
+    testImplementation libs.kotest.assertion.core
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.1.3")
+
+    implementation "androidx.compose.material:material:1.4.3"
+
+
+}
