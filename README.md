@@ -10,12 +10,14 @@
 <br>- Ktor
 <br>- Kotest
 <br>- PullRefreshIndicator (Swipe To Refresh )
-<br>- Kotlin DSL
 </p> Animated Progress Indicator 
 
 ## Project-Related Articles
 - [Initial-Impresion][3] - Kotlin Multiplatform Mobile: The Definitive Cross-platform Bridge
-- [Pagination][4] - Pagination in Kotlin Multiplatform Mobile
+- [Koin][4] - The Ultimate Guide to Koin (Dependency Injection with Kotlin) - Android Studio Tutorial
+- [Ktor][5] - Ktor Client In Android
+- [Kotest][6] - The Kotest test framework
+- 
 
 ## Android Preview
 <p><img src="main.gif" width=30% height=30%></p>
@@ -25,4 +27,9 @@
 - [CatsAPI][1] - Cats API Provider.
 
 [1]: https://developers.thecatapi.com/login
-[2]: https://github.com/yshrsmz/BuildKonfig-------------------------------------
+[2]: https://github.com/yshrsmz/BuildKonfig
+[3]: https://betterprogramming.pub/kotlin-multiplatform-mobile-is-it-a-comfortable-bridge-fb724a9f3a0c
+[4]: https://www.youtube.com/watch?v=EathumJlWh8
+[5]: https://ktor.io/docs/getting-started-ktor-client-multiplatform-mobile.html#android-activity
+[6]: https://kotest.io/docs/quickstart
+-------------------------------------
