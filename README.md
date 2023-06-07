@@ -31,4 +31,4 @@
 [3]: https://betterprogramming.pub/kotlin-multiplatform-mobile-is-it-a-comfortable-bridge-fb724a9f3a0c
 [4]: https://www.youtube.com/watch?v=EathumJlWh8
 [5]: https://ktor.io/docs/getting-started-ktor-client-multiplatform-mobile.html#android-activity
-[6]: https://kotest.io/docs/quickstart-------------------------------------
+[6]: https://kotest.io/docs/quickstart
