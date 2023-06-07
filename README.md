@@ -18,7 +18,6 @@
 - [Koin][4] - The Ultimate Guide to Koin (Dependency Injection with Kotlin) - Android Studio Tutorial
 - [Ktor][5] - Ktor Client In Android
 - [Kotest][6] - The Kotest test framework
-- 
 
 ## Android Preview
 <p><img src="main.gif" width=30% height=30%></p>
