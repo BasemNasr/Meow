@@ -1,4 +1,4 @@
-# Meow: Clean Architecture Kotlin Multiplatform Mobile
+# Meow: Clean Architecture Kotlin Multiplatform Libraries
 ==========
 
 [![build](https://github.com/annasta13/The-Movies/actions/workflows/build.yml/badge.svg)](https://github.com/annasta13/The-Movies/actions/workflows/gradle.yml)
